@@ -1,0 +1,22 @@
+.Left{
+  width: 50vw;
+  /* background-color: antiquewhite; */
+  padding: 1%;
+  padding-left: 10%;
+  font-size: 2em;
+  font-weight: 900;
+}
+.Left-1{
+  color:#CCB382;
+}
+.Left-2{
+  color: black;
+}
+
+.Right{
+  width: 50vw;
+  /* background-color: aquamarine; */
+  font-size: small;
+  color: grey;
+  padding-top: 1%;
+}
