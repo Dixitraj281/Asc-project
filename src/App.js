@@ -4,6 +4,7 @@ import Navbar from "./Components/Header/Navbar";
 import Images from "./Components/Banner/Images";
 import Intro from './Components/BannerTxt/Intro';
 import About from './Components/About/About';
+import ChooseusCard from './Components/About/ChooseusCard'
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       </div>
       <div>
       <About/> 
+      <ChooseusCard/>
       </div>
       
     </div>
