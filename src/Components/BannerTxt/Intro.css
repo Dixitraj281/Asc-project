@@ -1,4 +1,8 @@
 .strong{
-  font-size: xx-large;
-  
+  font-size: xx-large; 
+}
+@media screen and (max-width: 768px) {
+  .strong{
+    font-size: medium;
+  }
 }

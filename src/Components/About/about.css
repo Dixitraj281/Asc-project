@@ -20,3 +20,18 @@
   color: grey;
   padding-top: 1%;
 }
+@media screen and (max-width: 768px) {
+  .outer-box {
+    flex-direction: column; /* Stack elements vertically */
+  }
+  .Left{
+    font-size: 1em;
+    text-align: center;
+  }
+  .Left,
+  .Right {
+    padding: 2%;
+    width: 100%; /* Make both Left and Right take full width */
+    /* align-items: center; */
+  }
+}

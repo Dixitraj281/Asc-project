@@ -12,11 +12,16 @@ body {
 .void {
   padding: 1%;
 	width: 100%;
-	max-width: 1224px;
+	max-width: 90%;
 	margin: auto;
 	position: relative;
 	aspect-ratio: 1 / 1;
 }
+
+.Choose{
+	display: none;
+}
+
 #card-list:hover * {
 	animation-play-state: paused;
 }
@@ -33,7 +38,7 @@ body {
 	position: relative;
 	width: 100%;
 	aspect-ratio: 1 / 1;
-	outline: 2px dotted magenta;
+	/* outline: 2px dotted magenta; */
 	z-index: 1;
 }
 .card-li {
@@ -75,12 +80,7 @@ body {
 	color: #3B2ED0;
 	display: block;
 }
-.ASC-center{
-  text-shadow: #535062;
-  font-weight: 900;
-  font-size: medium;
-  color: #9b98cc;
-}
+
 svg {
 	position: absolute;
 	top: 0;
@@ -103,12 +103,7 @@ li:nth-child(5), li:nth-child(5) .card {
 li:nth-child(6), li:nth-child(6) .card {
 	animation-delay: calc((var(--rotate-speed)/var(--count)) * -5s);
 }
-li:nth-child(7), li:nth-child(7) .card {
-	animation-delay: calc((var(--rotate-speed)/var(--count)) * -6s);
-}
-li:nth-child(8), li:nth-child(8) .card {
-	animation-delay: calc((var(--rotate-speed)/var(--count)) * -7s);
-}
+
 
 @keyframes rotateCW {
 	from {
@@ -145,6 +140,10 @@ li:nth-child(8), li:nth-child(8) .card {
 	background: #FFFFFF;
 	box-shadow: 0px 18px 36px -18px rgba(12, 5, 46, 0.3), 0px 30px 60px -12px rgba(12, 5, 46, 0.25);
 	border-radius: 50%;
+	text-shadow: #535062;
+  font-weight: 900;
+  font-size: medium;
+  color: #9b98cc;
 }
 .second-circle {
 	position: absolute;
@@ -195,4 +194,39 @@ li:nth-child(8), li:nth-child(8) .card {
 	right: 0;
 	display: block;
 	background-image: linear-gradient(180deg, rgba(60, 26, 229, 0) 0%, #3C1AE5 50%, rgba(60, 26, 229, 0) 100%);
+}
+@media screen and (max-width: 768px) {
+  .card-li {
+    position: static; /* Remove absolute positioning */
+    transform: none; /* Remove transform */
+    width: 100%; /* Take full width */
+    margin-bottom: 20px; /* Add some spacing between cards */
+    animation: none; /* Stop animations */
+  }
+
+  .card {
+    width: 100%; /* Take full width */
+    animation: none; /* Stop animations */
+  }
+	.crop {
+    -webkit-mask-image:none;
+  }
+
+  .last-circle,
+  .second-circle,
+  .center-circle {
+    display: none; /* Remove all circle elements */
+  }
+
+  .mask {
+    display: none; /* Remove the mask element */
+  }
+	.Choose{
+		display: block;
+		padding: 2%;
+		color: #CCB382;
+	}
+	.model-name{
+		color: black;
+	}
 }

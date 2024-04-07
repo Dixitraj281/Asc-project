@@ -41,8 +41,11 @@ a {
   align-items: center;
   gap: 60px;
 }
+.navlink{
+  background-color: aqua;
+}
 a:hover{
-  transform: scale(2);
+  transform: scale(1.1);
   
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 const About = () => {
   return (
-    <div className='flex pt-12'>
+    <div className='flex pt-12 outer-box'>
       <div className='Left'>
         <p className='Left-1'>About us</p>
         <p className='Left-2'>Associated Scientific Corporation</p>

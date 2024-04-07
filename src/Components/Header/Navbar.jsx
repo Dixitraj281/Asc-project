@@ -19,16 +19,16 @@ function Navbar() {
           <a href='#home' className={`${styles.logo}`}>ASC </a>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>Home</a>
+              <a href='#home' className="navlink">Home</a>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>About Us</a>
+              <a href='#home' className="navlink">About Us</a>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>All products</a>
+              <a href='#home' className="navlink">All products</a>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>Contact Us</a>
+              <a href='#home' className="navlink">Contact Us</a>
             </li>
           </ul>
           <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`}  onClick={toggleActiveClass}>

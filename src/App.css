@@ -5,16 +5,24 @@
 
 .intro-overlay {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1; /* Ensure the Intro component is above the Banner */
-  width: 100%; /* Adjust width as needed */
+  width: 90%; /* Adjust width as needed */
   max-width: 800px; /* Set maximum width */
   padding: 20px; /* Add padding for spacing */
   background-color: rgba(255, 255, 255, 0.8); 
   border-radius: 10px;
   text-align: center;
-  /* color: white; */
 }
+
+@media screen and (max-width: 768px) {
+  .intro-overlay {
+    top: calc(70px + 15%);
+    width: 90%; /* Adjust width for smaller screens */
+    padding: 10px;
+    font-size: small;
+  }
+}
+
 

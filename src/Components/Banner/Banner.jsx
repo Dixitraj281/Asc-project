@@ -14,7 +14,7 @@ const Banner = ({ images }) => {
 		slidesToScroll: 1,
 		lazyLoad: true,
 		autoplay: true,
-		autoplaySpeed: 9000,
+		autoplaySpeed: 6000,
 	};
 	return (
 		<>
