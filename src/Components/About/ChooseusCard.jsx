@@ -1,10 +1,13 @@
 import React from 'react';
 import './ChooseusCard.css'; // Import your CSS file
+import people from '../../Assets/people.svg'
 
 const ChooseusCard = () => {
   return (
     <div className="void" id="void">
-      <div className="Choose text-center font-extrabold font">Why Choose Us</div>
+      <div className="Choose text-center font-extrabold font">
+        Why Choose Us
+      </div>
       <div className="crop">
         <ul id="card-list" style={{ '--count': 6 }}>
           <li className='card-li'><div className="card"><a href="#whychoose" className='card-link'><span className="model-name">Unparalleled Expertise</span><span className='span-main'>Benefit from our years of industry experience, where a team of seasoned professionals understands the unique requirements of engineering education and industrial training. This expertise allows us to curate a catalog of equipment that aligns seamlessly with the evolving demands of modern curricula and industry standards.</span></a></div></li>
@@ -18,7 +21,8 @@ const ChooseusCard = () => {
         <div className="second-circle"></div>
       </div>
       <div className="mask flex justify-center items-center h-full">
-        <div className="text-center font-extrabold font">Why Choose Us</div>
+        <div className="text-center font-extrabold font">Why Choose Us
+        <img src={people} alt="waiting" className='pt-10'/></div>
       </div>
       <div className="center-circle flex items-center justify-center ASC-center">ASC</div>
     </div>

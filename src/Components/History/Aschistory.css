@@ -1,0 +1,37 @@
+.historybody{
+  background-color: #E1E6E9;
+}
+.Left-3{
+  font-size: small;
+  color: gray;
+  font-weight: 500;
+}
+.history-link{
+  color: blue;
+  font-size: medium;
+  font-weight: 200;
+  text-decoration: underline;
+}
+.rating-img{
+  display: flex;
+  max-height: 50vh;
+  margin: auto;
+  align-items: center;
+}
+.rating-img:hover{
+  transform: scale(1.05);
+  transition: 1s all;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.Right-a{
+  background: #4A8D5B;
+}
+@media screen and (max-width: 768px) {
+  .Left-3{
+    text-align: left;
+  }
+  .history-link{
+    font-size: small;
+  }
+}

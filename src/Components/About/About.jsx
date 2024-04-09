@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='flex pt-12 outer-box'>
       <div className='Left'>
-        <p className='Left-1'>About us</p>
+        <p className='Left-1'>Empowering Innovation</p>
         <p className='Left-2'>Associated Scientific Corporation</p>
       </div>
       <div className='Right'>

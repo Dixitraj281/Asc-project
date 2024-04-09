@@ -1,0 +1,54 @@
+.brand-container {
+  width: 80%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks */
+  margin: 50px auto;
+  background-color: #b4aff6;
+  border-radius: 10px;
+  padding: 1%;
+}
+.Customer-heading{
+  color: whitesmoke;
+  font-weight: 700;
+
+}
+
+ul.brand-banner {
+  width: fit-content; /* Adjust width to fit content */
+  margin: 0 auto; /* Center align the list */
+  padding: 0; /* Remove default padding */
+}
+
+.brand-banner {
+  width: 3550px;
+  margin-bottom: 80px;  
+}
+
+.brand-box {
+  display: inline-block;
+  width: auto; /* Adjust width dynamically */
+  margin: 0.5rem;
+  padding: 10px;
+  background: white;
+  color: gray;
+  border-radius: 10px;
+  text-align: center;
+  white-space: nowrap; /* Prevent line breaks */
+  border: 1px solid white;
+
+}
+
+/*keyframe animations*/
+.brand-box:first-child {
+  animation: bannermove 50s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {
+    margin-left: 0px;
+    transform: translateX(0);
+  }
+  100% {
+    margin-left: -2125px;
+  }
+}

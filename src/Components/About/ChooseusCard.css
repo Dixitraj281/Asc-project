@@ -74,10 +74,10 @@ body {
 	color: unset;
 }
 .model-name {
-	font-weight: 500;
+	font-weight: 900;
 	font-size: 18px;
 	line-height: 150%;
-	color: #3B2ED0;
+	color: #000;
 	display: block;
 }
 
@@ -207,6 +207,8 @@ li:nth-child(6), li:nth-child(6) .card {
   .card {
     width: 100%; /* Take full width */
     animation: none; /* Stop animations */
+		background-image: linear-gradient(to right, #171b1f, #E1E6E9);
+		border: 1px solid wh;
   }
 	.crop {
     -webkit-mask-image:none;
@@ -227,6 +229,14 @@ li:nth-child(6), li:nth-child(6) .card {
 		color: #CCB382;
 	}
 	.model-name{
-		color: black;
+		color: white;
+		font-weight: 900;
+	}
+	.card:hover{
+		transform: scale(1.1);
+		
+	}
+	.span-main{
+		color: white;
 	}
 }
