@@ -1,8 +1,16 @@
 .strong{
   font-size: xx-large; 
+  letter-spacing: 2px;
+}
+.para{
+  font-size: small;
+  letter-spacing: 2px;
 }
 @media screen and (max-width: 768px) {
   .strong{
     font-size: medium;
+  }
+  .para{
+    font-size: x-small;
   }
 }

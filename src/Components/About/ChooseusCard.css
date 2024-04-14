@@ -207,8 +207,7 @@ li:nth-child(6), li:nth-child(6) .card {
   .card {
     width: 100%; /* Take full width */
     animation: none; /* Stop animations */
-		background-image: linear-gradient(to right, #171b1f, #E1E6E9);
-		border: 1px solid wh;
+		border: 1px solid white;
   }
 	.crop {
     -webkit-mask-image:none;
@@ -229,14 +228,14 @@ li:nth-child(6), li:nth-child(6) .card {
 		color: #CCB382;
 	}
 	.model-name{
-		color: white;
+		color: black;
 		font-weight: 900;
 	}
 	.card:hover{
-		transform: scale(1.1);
+		transform: scale(1.05);
 		
 	}
 	.span-main{
-		color: white;
+		color: gray;
 	}
 }

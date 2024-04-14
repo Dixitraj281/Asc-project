@@ -3,12 +3,12 @@
   overflow-x: auto; /* Enable horizontal scrolling */
   white-space: nowrap; /* Prevent line breaks */
   margin: 50px auto;
-  background-color: #b4aff6;
+  background-color: #f0f0f0;
   border-radius: 10px;
   padding: 1%;
 }
 .Customer-heading{
-  color: whitesmoke;
+  /* color: whitesmoke; */
   font-weight: 700;
 
 }
@@ -50,5 +50,13 @@ ul.brand-banner {
   }
   100% {
     margin-left: -2125px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .brand-container{
+    width: 90%;
+  }
+  .brand-box{
+    font-size:small;
   }
 }

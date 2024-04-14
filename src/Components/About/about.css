@@ -19,6 +19,8 @@
   font-size: small;
   color: grey;
   padding-top: 1%;
+  padding-right: 5%;
+  word-break: keep-all;
 }
 @media screen and (max-width: 768px) {
   .outer-box {

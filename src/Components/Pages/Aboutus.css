@@ -1,0 +1,27 @@
+.About{
+  display: flex;
+  font-size: small;
+  color: gray;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.subhead{
+  display: block;
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 5px;
+}
+.font-join{
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 768px) {
+ .p-subhead{
+  font-size: medium;
+ }
+}

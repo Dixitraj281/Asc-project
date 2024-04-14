@@ -9,20 +9,6 @@ function Footer() {
           <span>Get connected with us:</span>
         </div>
 
-        <div>
-          <a href="#icon" className="me-4 text-secondary">
-          </a>
-          <a href="#icon" className="me-4 text-secondary">
-          </a>
-          <a href="#icon" className="me-4 text-secondary">          
-          </a>
-          <a href="#icon" className="me-4 text-secondary">            
-          </a>
-          <a href="#icon" className="me-4 text-secondary">            
-          </a>
-          <a href="#icon" className="me-4 text-secondary">            
-          </a>
-        </div>
       </section>
 
       <section className="py-5">

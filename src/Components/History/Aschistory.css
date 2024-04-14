@@ -5,6 +5,7 @@
   font-size: small;
   color: gray;
   font-weight: 500;
+  word-break: keep-all
 }
 .history-link{
   color: blue;

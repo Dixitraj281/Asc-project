@@ -6,7 +6,7 @@ const Intro = ({images}) => {
     <>
     {images.map((item) => (
       
-        <div className="container" key={item.id}>
+        <div className="" key={item.id}>
           <strong className='strong'>{item.text}</strong>
           <p className='para'>{item.text2}</p>
         </div>
