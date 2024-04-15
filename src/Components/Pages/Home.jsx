@@ -18,10 +18,10 @@ const Home = () => {
       <div>
       <About/> 
       <ChooseusCard/>
-      </div>
       <Aschistory/>
       <Brands/>
       <Footer/>
+      </div>  
     </div>
   )
 }
