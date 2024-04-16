@@ -32,44 +32,18 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <div className={`${styles.dropdown}`} onClick={removeActive}>
+              <div className={`${styles.dropdown}`}>
                 <span className="navlink">All Products</span>
-                <div className={`${styles.dropdownContent}`}>
-                  <Link to="/Carpenter" className="navlink">
-                    CARPENTER TRADE
-                  </Link>
-                  <hr/>
-                  <Link to="/Electrical" className="navlink">
-                    ELECTRICAL TRADE
-                  </Link>
-                  <hr/>
-                  <Link to="/Electronic_Mechanic" className="navlink">
-                  ELECTRONIC MECHANIC TRADE
-                  </Link>
-                  <hr/>
-                  <Link to="/Fitter_Trade" className="navlink">
-                    FITTER TRADE
-                  </Link>
-                  <hr/>
-                  <Link to="/Hydraulic_Trade" className="navlink">
-                    HYDRUALIC & PNEUMATIC TRADE
-                  </Link>
-                  <hr/>
-                  <Link to="/Motor_Trade" className="navlink">
-                    MOTOR MECHANIC VEHICLE TRADE
-                  </Link>
-                  <hr/>
-                  <Link to="/Refridegration_Trade" className="navlink">
-                    REFRIDGERATION & AIR CONDITIONING TRADE
-                  </Link>
-                  <hr/>
-                  <Link to="/Solar_Trade" className="navlink">
-                    SOLAR TRADE
-                  </Link>
-                  <hr/>
-                  <Link to="/Welder_Trade" className="navlink">
-                    WELDER TRADE
-                  </Link>
+                <div className={`${styles.dropdownContent}`} >
+                  <Link to="/Carpenter" className="navlink"  onClick={removeActive}>Carpenter Trade</Link>
+                  <Link to="/Electrical" className="navlink" onClick={removeActive}>Electrical Trade</Link>
+                  <Link to="/Electronic_Mechanic" className="navlink" onClick={removeActive}>Electronic Mechanic Trade</Link>
+                  <Link to="/Fitter_Trade" className="navlink" onClick={removeActive}>Fitter Trade</Link>
+                  <Link to="/Hydraulic_Trade" className="navlink" onClick={removeActive}>Hydraulic & Pneumatic Trade</Link>
+                  <Link to="/Motor_Trade" className="navlink" onClick={removeActive}>Motor Mechanic Vehicle Trade</Link>
+                  <Link to="/Refridegration_Trade" className="navlink" onClick={removeActive}>Refrigeration & Air Conditioning Trade</Link>
+                  <Link to="/Solar_Trade" className="navlink" onClick={removeActive}>Solar Trade</Link>
+                  <Link to="/Welder_Trade" className="navlink" onClick={removeActive}>Welder Trade</Link>
                 </div>
               </div>
             </li>

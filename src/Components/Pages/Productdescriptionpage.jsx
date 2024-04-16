@@ -1,35 +1,31 @@
-import React from 'react'
-import "./Productdescriptionpage.css"
-import { getProductById } from '../productutils.js';
-const productdescription = ({ match }) => {
-  // Retrieve the product ID from URL parameter
-  const { productId } = match.params;
+import React from 'react';
+import { useParams, Link } from 'react-router-dom';
+import "./Productdescriptionpage.css";
+import productslist from './productslist'; // Correct import statement
+// import Footer from '../Footer/Footer'
 
-  // Here you can use the product ID to fetch the product details from the products list
-  // For demonstration purposes, I'm assuming you have a function to get the product details
-  // You can replace this with your actual data fetching logic
-  const product = getProductById(productId);
+const Productdescription = () => {
+  const { category, productId } = useParams(); // Assuming you also have category in the URL params
+  const productCategory = productslist[category]; // Get the array of products for the specified category
+  const product = productCategory.find((product) => product.id === parseInt(productId)); // Find the product within the category array
+  const { title, description, note } = product;
+  
   return (
-    <>
-      <main className="container-desc-page">
- 
- {/* <!-- Left Column / product Image --> */}
- <div className="left-column">
- <img data-image="black" src={product.image} alt={product.title} />
- </div>
- {/* <!-- Right Column --> */}
- <div className="right-column">
-
-   {/* <!-- Product Description --> */}
-   <div className="product-description">
-    <span>{product.category}</span>
-    <h1>{product.title}</h1>
-    <p>{product.description}</p>
-   </div>
- </div>
-</main>
-    </>
-  )
+    <main className="container-desc-page">
+      <div className="left-column">
+      <img data-image="black" src='https://source.unsplash.com/jXd2FSvcRr8' alt={product.title} className="product-image" />
+      </div>
+      <div className="right-column">
+        <div className="product-description">
+        <div className="desc-heading">{category}</div>
+          <h1>{title}</h1>
+          <p><span> Description: </span>{description}</p>
+          <p><span>Note:</span>{note}</p>
+          <Link to={`/${category}`} className="back-link">Back to product section</Link>
+        </div>
+      </div>
+    </main>
+  );
 }
 
-export default productdescription
+export default Productdescription;

@@ -15,7 +15,7 @@ body {
 	max-width: 90%;
 	margin: auto;
 	position: relative;
-	aspect-ratio: 1 / 1;
+	/* aspect-ratio: 1 / 1; */
 }
 
 .Choose{
