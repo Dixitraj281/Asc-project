@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 🔬 Associated Scientific Corporation Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive business website built for a Delhi-based supplier of scientific instruments to colleges and educational institutions. The platform highlights the company’s profile, product range, client network, and contact options.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+👉 [Visit Website on Netlify/Vercel](https://your-project-url.vercel.app)  
+*(Replace with your actual deployed link)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack
 
-### `npm test`
+- **Frontend:** React.js, Tailwind CSS
+- **Form Handling:** EmailJS
+- **Deployment:** Netlify 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Pages & Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🏠 Home Page
+- Showcases the company’s **introduction**, **tagline**, and **notable clients** with logos or banners.
+- Designed to engage academic clients with clean visuals and animations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📖 About Page
+- Displays the company’s **mission, vision, and goals** in a structured, minimal layout.
+- Highlights their commitment to quality, support, and partnerships.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🧪 Products Page
+- Categorically lists all scientific instruments and lab tools.
+- Filtered by **product types** for easy browsing.
 
-### `npm run eject`
+### 📞 Contact Page
+- Includes a functional **contact form** and **company contact details** (email, phone, address).
+- Enables potential clients and institutions to reach out seamlessly.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 Key Highlights
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- ⚡ Fully responsive across devices
+- 🎯 Designed with clean user flow for academic buyers
+- 🔗 Integrated contact form to support direct lead generation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Frontend deployed on **Vercel** or **Netlify**
+- Optional form integration using **EmailJS** 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🤝 Client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Developed for **Associated Scientific Corporation**, a Delhi-based company supplying laboratory instruments to colleges and research institutions.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📬 Contact
 
-### Making a Progressive Web App
+If you have questions or want to collaborate:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- LinkedIn: [linkedin.com/in/dixitraj28](https://linkedin.com/in/dixitraj28)
+- Portfolio: [dixitraj.netlify.app](https://dixitraj.netlify.app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
