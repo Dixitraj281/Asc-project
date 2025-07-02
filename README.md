@@ -6,8 +6,7 @@ A responsive business website built for a Delhi-based supplier of scientific ins
 
 ## 🌐 Live Demo
 
-👉 [Visit Website on Netlify/Vercel](https://your-project-url.vercel.app)  
-*(Replace with your actual deployed link)*
+👉 [Visit Website on Netlify/Vercel](https://asc1.netlify.app/)  
 
 ---
 
